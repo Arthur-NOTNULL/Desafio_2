@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria da Casa</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body style="background-image: url(img/bg_1.jpg) ;">   
+    <div class="container">
+        <img src="img/nome.png">
+        <div class="row" >
+            <div class="col-md-4">
+            <div class="card" style="width:300px;  background-color: transparent; ">
+                <img class="card-img-top" src="img/bg_1.png" alt="Card image" style="height: 250px;">
+                <div class="card-body">
+                    <h2 class="card-title" style="color: white;"><strong>Pizza Marguerita</strong></h2>
+                <h5 class="card-text" style="color: white;">Pizza Marguerita Gigante <br>De R$<s>80,00</s> por R$ 60,00 </h5>
+                <a href="#" class="btn btn-warning"><strong>Comprar</strong></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width:300px;  background-color: transparent; ">
+                    <img class="card-img-top" src="img/pizza-amoda2.png" alt="Card image" style="height: 250px;">
+                    <div class="card-body">
+                    <h2 class="card-title" style="color: white;"><strong>Pizza A Moda</strong></h2>
+                    <h5 class="card-text" style="color: white;">Pizza Marguerita Gigante <br>De R$<s>90,00</s> por R$ 70,00 </h5>
+                    <a href="#" class="btn btn-warning"><strong>Comprar</strong></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width:300px; background-color: transparent; ">
+                    <img class="card-img-top" src="img/pizza-carneseca.png" alt="Card image" style="height: 250px;">
+                    <div class="card-body">
+                        <h2 class="card-title" style="color: white;"><strong>Pizza Carne Seca</strong></h2>
+                    <h5 class="card-text" style="color: white;">Pizza Marguerita Gigante <br>De R$<s>60,00</s> por R$ 40,00 </h5>
+                    <a href="#" class="btn btn-warning"><strong>Comprar</strong></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-image: url(img/bg_3.jpg) ; height: 600px;">
+        <div class="container" >
+            <div class="row" >
+                <h2 style="color: yellow;">Não fique por fora das Promoções<br>cadastre seu email para receber as promoções</h2>
+            <div class="col-md-4"></div>
+            <div class="col-md-4" style="margin-top: 10%;">
+            <form class="form-inline"  >
+                <h5><label for="email" class="mr-sm-2" style="color: white;">Nome:</label></h5>
+                <input type="email" class="form-control " placeholder="Coloque seu nome" id="nome">
+                <h5><label for="email" class="mr-sm-2" style="color: white;">Endereço:</label></h5>
+                <input type="email" class="form-control " placeholder="Coloque seu endereço" id="endereco">
+                <h5><label for="email" class="mr-sm-2" style="color: white;">Endereço de Email:</label></h5>
+                <input type="email" class="form-control " placeholder="Coloque seu email" id="email">
+                <div class="form-check mb-2 mr-sm-2">
+                  <label class="form-check-label" style="color: white;">
+                    <input class="form-check-input" type="checkbox"> Me deixe por dentro das promoções
+                  </label>
+                </div>
+                <button  class="btn btn-warning" onclick="salvar()"><strong>Cadastrar</strong></button>
+            </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
